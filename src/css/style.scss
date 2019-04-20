@@ -55,8 +55,13 @@ body {
                 display: block;
                 margin-block-start: 0em;
                 margin-block-end: 0em;
-                padding: 12px;
+                padding-left: 12px;
+                padding-top: 5px; 
                 color: #9CDCFE;
+            }
+
+            p.last {
+                color: #FFFFFF;
             }
 
             input[type=text] {

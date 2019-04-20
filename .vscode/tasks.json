@@ -17,6 +17,11 @@
             "type": "npm",
             "script": "pack",
             "problemMatcher": []
+        },
+        {
+            "label": "tsc compile",
+            "command": "tsc",
+            "problemMatcher": []
         }
     ]
 }

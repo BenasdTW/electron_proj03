@@ -69,8 +69,13 @@ body #container #content p {
           margin-block-start: 0em;
   -webkit-margin-after: 0em;
           margin-block-end: 0em;
-  padding: 12px;
+  padding-left: 12px;
+  padding-top: 5px;
   color: #9CDCFE;
+}
+
+body #container #content p#to_do {
+  color: #FFFFFF;
 }
 
 body #container #content input[type=text] {
