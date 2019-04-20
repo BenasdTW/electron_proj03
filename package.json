@@ -1,0 +1,26 @@
+{
+  "name": "electron_proj03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "dependencies": {
+    "jquery": "^3.4.0"
+  },
+  "devDependencies": {
+    "electron": "^4.1.4",
+    "electron-builder": "^20.39.0"
+  },
+  "build": {
+    "appId": "my.app",
+    "mac": {
+      "category": "ben.tw"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dev",
+    "dist": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC"
+}
